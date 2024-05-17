@@ -191,6 +191,7 @@ try {
 	}
 	else {
 		Write-Log "Install started."
+  		Uninstall-Remotely
 		Install-Remotely
 		Write-Log "Install completed."
 		exit
